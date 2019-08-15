@@ -1,6 +1,6 @@
-# The Animal App_
+# The Animal App
 
-#### _Hired to build an app with information about turtles, snakes, and insects (or another three animals or items of your choosing)., 8/12/2019_
+#### _Hired to build an app with information about turtles, snakes, and insects (or another three animals or items of your choosing)., 8/15/2019_
 
 #### By _**hyunchul & Vera Weikel**_
 
