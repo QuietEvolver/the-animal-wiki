@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Animal Choice</title>
   </head>
   <body>
-    <h1>Animal Choice</h1>
+
     <div class= "container">
       <h1> Animal Choice </h1>
-
+      <p>Which animal they'd like to learn about.</p>
       <p>Choose one of the three animals from the dropdown:</p>
 
       <form id="insurance">
@@ -22,16 +22,24 @@
         <!-- (from class Thurs:intro/js&jQuery/Practice:Branching[instruction#1. user which animal they'd like to learn about-->
         <label for="animal">Animal</label>
         <select id="animal">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
+          <option value="turtles">turtles</option>
+          <option value="snakes">snakes</option>
+            <option value="insects">insects</option>
         </select>
 
-          <button type="submit" class="btn">Calculate my quote</button>
+          <button type="submit" class="btn">animal choice</button>
       </form>
 
-      <div id="quote">
-        <p>You will have to pay $<span id="rate"></span> per mouth to get car insurance.
-          You should probably just bike ortake the bus.</p>
+        <!-- hen a user clicks an animal, display a div containing information about that animal (including pictures!). -->
+      <div id="turtles">
+        <p>You will have to pay $<img id="turtles_img" src= "assets/image/turtles.jpg">turtles</img> Turtles are ectotherms—animals commonly called cold-blooded—meaning that their internal temperature varies according to the ambient environment.</p>
+      </div>
+      <div id="snakes">
+        <p>You will have to pay $<img id="snakes_img" src="assets/image/snakes.jpg">snakes</img> pLiving snakes are found on every continent except Antarctica, and on most smaller land masses.</p>
+      </div>
+
+      <div id="insets">
+        <p>You will have to pay $<img id="insects_img" src="assets/image/insects.jpg"></img> Adult insects typically move about by walking, flying, or sometimes swimming. As it allows for rapid yet stable movement.</p>
       </div>
 
     </div>
