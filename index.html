@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Animal Choice</title>
   </head>
   <body>
     <h1>Animal Choice</h1>
-    <section>
-      <select class="animal-choice" name="animal-choice">
-          <label for="cat">cat</label>
-          <label for="dog">dog</label>
-          <label for="fish">fish</label>
-      </select>
-      
+    <div class= "container">
+      <h1> Animal Choice </h1>
+
+      <p>Choose one of the three animals from the dropdown:</p>
+
+      <form id="insurance">
+        <!-- <label for="age">Age</label>
+        <input id="age" type="text"> -->
+        <label for="animal">Animal</label>
+        <select id="animal">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+          <button type="submit" class="btn">Calculate my quote</button>
+      </form>
+
+      <div id="quote">
+        <p>You will have to pay $<span id="rate"></span> per mouth to get car insurance.
+          You should probably just bike ortake the bus.</p>
+      </div>
+
+    </div>
     </section>
   </body>
 </html>
