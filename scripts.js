@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   var animals = prompt("Where is tile?"));
 
+  displayTurtles()
+
     if (animal === "turtles") {   // if turtles
       displayTurtles();           // call the function to display turtles.
     }
